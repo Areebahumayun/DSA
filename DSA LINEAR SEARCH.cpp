@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
-linearsearch(int arr[],int N,int x){
+int linearsearch(int arr[],int N,int x){
 	for(int i=0;i<N;i++){
 		if(arr[i]==x){
 			return i;
 		}
-		else return -1;
-	}
+	} return -1;
+	
 }
 int main(){
 	int arr[4]={2,3,4,5};
